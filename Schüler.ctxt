@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Sch\u00FCler
+comment1.params=
+comment1.target=Sch\u00FCler()
+comment10.params=
+comment10.target=java.lang.String\ printSch\u00FCler()
+comment2.params=new_student_name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=new_student_id
+comment4.target=void\ setId(int)
+comment5.params=
+comment5.target=int\ getId()
+comment6.params=new_student_classe
+comment6.target=void\ setClasse(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getClasse()
+comment8.params=new_student_age
+comment8.target=void\ setAge(int)
+comment9.params=
+comment9.target=int\ getAge()
+numComments=11

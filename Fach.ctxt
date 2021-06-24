@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Fach
+comment1.params=
+comment1.target=Fach()
+comment2.params=new_subject_name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=new_subject_description
+comment4.target=void\ setDescription(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getDescription()
+numComments=6
