@@ -1,11 +1,11 @@
-public class Schüler
+public class Schueler
 {
     private int student_id;
     private String student_name;
-    private String student_classe; //VERKNÜPFEN MIT KLASSEN (CLASS)
+    private String student_classe;//WARTEN BIS LISTEN ERLAUBT SIND
     private int student_age;
 
-    public Schüler()
+    public Schueler()
     {
         student_id = 0;
         student_name = " ";
@@ -45,7 +45,7 @@ public class Schüler
         return student_age;
     }
 
-    public String printSchüler(){
+    public String printSchueler(){
         String tmp = " ";
         tmp = "Name: " + student_name + "; " + "Alter: " + student_age + "; " + "SchülerID: " + student_id + "; " + "Klasse: " + student_classe + "; ";
         return tmp;

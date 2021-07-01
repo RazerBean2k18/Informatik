@@ -2,7 +2,7 @@ public class Fach
 {
     private String subject_name;
     private String subject_description;
-    private Lehrer[] subject_teachers; //WIE SETZT MAN DAS UM??
+    private Lehrer[] subject_teachers;//WARTEN BIS LISTEN ERLAUBT SIND
     
     public Fach()
     {

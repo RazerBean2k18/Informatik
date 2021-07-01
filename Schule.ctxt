@@ -2,4 +2,16 @@
 comment0.target=Schule
 comment1.params=
 comment1.target=Schule()
-numComments=2
+comment2.params=new_school_name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=new_school_adress
+comment4.target=void\ setAdress(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getAdress()
+comment6.params=
+comment6.target=java.lang.String\ getStudents()
+comment7.params=new_school_student
+comment7.target=boolean\ addStudent(Schueler)
+numComments=8
