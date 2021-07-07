@@ -9,8 +9,7 @@ public class Schule
     {
         school_name = " ";
         school_adress = " ";
-        school_students = new Schueler[10];
-        school_all_students = " ";
+        school_students = new Schueler[1000];
     }
 
     public void setName(String new_school_name){
@@ -29,8 +28,9 @@ public class Schule
         return school_adress;
     }
 
-    public String getStudents(){
+    public String getAllStudents(){
         int i = 0;
+        school_all_students = "";
         while(i < school_students.length){
             if (school_students[i] != null){
                 school_all_students = school_all_students + school_students[i].getName() + '\n';

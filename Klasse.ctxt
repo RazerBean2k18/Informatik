@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Klasse
+comment1.params=
+comment1.target=Klasse()
+comment2.params=new_classe_name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ getAllStudents()
+comment5.params=new_classe_student
+comment5.target=boolean\ addStudent(Schueler)
+comment6.params=
+comment6.target=java.lang.String\ getAllTeachers()
+comment7.params=new_classe_teacher
+comment7.target=boolean\ addTeacher(Lehrer)
+numComments=8
