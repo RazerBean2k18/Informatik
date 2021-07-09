@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Stufe
+comment1.params=
+comment1.target=Stufe()
+comment2.params=new_level_name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ getAllClasses()
+comment5.params=new_level_classe
+comment5.target=boolean\ addClasse(Klasse)
+numComments=6

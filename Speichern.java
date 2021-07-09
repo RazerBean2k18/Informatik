@@ -23,6 +23,47 @@ public class Speichern
     private Klasse Elefanten;
     private Lehrer kleinhans;
     private Lehrer dietrich;
+    private Fach englisch;
+    private Fach mathe;
+    private Fach sport;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -109,6 +150,15 @@ public class Speichern
         Elefanten.addStudent(anna);
         Elefanten.addTeacher(kleinhans);
         Elefanten.addTeacher(dietrich);
+        englisch = new Fach();
+        mathe = new Fach();
+        sport = new Fach();
+        englisch.addTeacher(kleinhans);
+        englisch.addTeacher(dietrich);
+        sport.addTeacher(dietrich);
+        mathe.addTeacher(kleinhans);
+        gsg.addTeacher(dietrich);
+        gsg.addTeacher(kleinhans);
     }
 
     /**

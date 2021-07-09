@@ -1,10 +1,12 @@
 public class Schueler
 {
     private int student_id;
+    private int student_age;
     private String student_name;
     private Klasse[] students_classe;
-    private String student_all_classe;//WARTEN BIS LISTEN ERLAUBT SIND
-    private int student_age;
+    private String student_all_classe;
+    private Lehrer[] student_tutor;
+    private String student_all_tutors;
 
     public Schueler()
     {
@@ -12,7 +14,8 @@ public class Schueler
         student_name = " ";
         student_all_classe = " ";
         student_age = 0;
-        students_classe = new Klasse[1];
+        students_classe = new Klasse[5];
+        student_tutor = new Lehrer[2];
     }
 
     public void setName(String new_student_name){
@@ -31,7 +34,22 @@ public class Schueler
         return student_id;
     }
 
-    public String getAllClasses(){
+    public void setAge(int new_student_age){
+        student_age = new_student_age;
+    }
+
+    public int getAge(){
+        return student_age;
+    }
+
+    public String printSchueler(){
+        String tmp = " ";
+        tmp = "Name: " + student_name + "; " + '\n' + "Alter: " + student_age + "; " + '\n'  + "SchülerID: " + student_id + "; " + '\n' + "Klasse: " + student_all_classe + "; ";
+        System.out.print(tmp);
+        return tmp;
+    }
+    
+    public String getALlClasses(){
         int i = 0;
         student_all_classe = "";
         while(i < students_classe.length){
@@ -57,22 +75,31 @@ public class Schueler
         }
         return false;
     }
-
-    public String getClasse(){
-        return student_all_classe;
+    
+    public String getAllTutors(){
+        int i = 0;
+        student_all_tutors = "";
+        while(i < student_tutor.length){
+            if (student_tutor[i] != null){
+                student_all_tutors = student_all_tutors + student_tutor[i].getName() + '\n';
+            }
+            i++;
+        }
+        System.out.print(student_all_tutors);
+        return student_all_tutors;
     }
 
-    public void setAge(int new_student_age){
-        student_age = new_student_age;
-    }
-
-    public int getAge(){
-        return student_age;
-    }
-
-    public String printSchueler(){
-        String tmp = " ";
-        tmp = "Name: " + student_name + "; " + "Alter: " + student_age + "; " + "SchülerID: " + student_id + "; " + "Klasse: " + student_all_classe + "; ";
-        return tmp;
+    public boolean addTutor(Lehrer new_student_tutor){
+        int i = 0;
+        while(i < student_tutor.length){
+            if(student_tutor[i] == null){
+                student_tutor[i] = new_student_tutor;
+                return true;
+            }
+            else{
+                i++;
+            }
+        }
+        return false;
     }
 }
